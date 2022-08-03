@@ -1,0 +1,46 @@
+html {
+  background: url('./background.jpg') bottom center;
+  font-size: 10px;
+  background-size: cover;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.keys {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.key {
+  font-size: 1.5rem;
+  border: 0.4rem solid black;
+  padding: 1rem 0.5rem;
+  margin: 1rem;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  transition: all 0.07s ease;
+  text-shadow: 0 0 0.5rem black;
+}
+.playing {
+  transform: scale(1.2);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+.sound {
+  text-transform: uppercase;
+  color: #ffc600;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+}
